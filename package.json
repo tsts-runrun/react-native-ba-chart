@@ -1,7 +1,7 @@
 {
   "name": "react-native-ba-chart",
   "title": "React Native Ba Chart ",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React Native Ba Chart",
   "main": "index.js",
   "files": [
@@ -10,15 +10,15 @@
     "index.js",
     "index.d.ts",
     "ios",
-    "react-native-kline.podspec"
+    "react-native-ba-chart.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/472647301/react-native-kline.git",
-    "baseUrl": "https://github.com/472647301/react-native-kline"
+    "url": "git+https@github.com:tsts-runrun/react-native-ba-chart.git",
+    "baseUrl": "https://github.com/tsts-runrun/react-native-ba-chart"
   },
   "keywords": [
     "react-native"
