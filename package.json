@@ -10,7 +10,7 @@
     "index.js",
     "index.d.ts",
     "ios",
-    "react-native-kline.podspec"
+    "react-native-ba-chart.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
