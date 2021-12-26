@@ -18,8 +18,12 @@
 #define ChartColors_ma10Color Color(0xff6CB0A6)
 #define ChartColors_ma30Color Color(0xff9979C6)
 #define ChartColors_upColor Color(0xff2ebc85) //蜡烛上升颜色
+
 #define ChartColors_dnColor Color(0xfff6455d) //蜡烛下降颜色
-#define ChartColors_volColor Color(0xff0b6beb)
+
+#define ChartColors_volColor Color(0xffb2b7c0)            //volume 左上角文字颜色
+#define ChartColors_volumeFillUpColor Color(0xff96dec1)   //volme up 背景填充色
+#define ChartColors_volumeFillDownColor Color(0xfffaa2ae) //volme down 背景填充色
 
 #define ChartColors_macdColor Color(0xff4729AE)
 #define ChartColors_difColor Color(0xffC9B885)
@@ -35,17 +39,16 @@
 #define ChartColors_yAxisTextColor Color(0xffb2b7c0) //右边y轴刻度
 #define ChartColors_xAxisTextColor Color(0xffb2b7c0) //下方时间刻度
 
-#define ChartColors_maxMinTextColor Color(0xffF0B90B) //最大最小值的颜色
+#define ChartColors_maxMinTextColor Color(0xff111111) //最大最小值的颜色
 
 //深度颜色
 #define ChartColors_depthBuyColor Color(0xff96dec1)
 #define ChartColors_depthSellColor Color(0xfffaa2ae)
 
 //选中后显示值边框颜色
-#define ChartColors_markerBorderColor Color(0xffF0B90B) //选中的有小箭头的边框颜色
-
-//选中后显示值背景的填充颜色
-#define ChartColors_markerBgColor Color(0xffb2b7c0) // 选中的有小箭头的背景颜色
+#define ChartColors_markerBorderColor Color(0xfff7f5ec) //选中的有小箭头的边框颜色
+#define ChartColors_markerBgColor Color(0xfff7f5ec)     // 选中的有小箭头的背景颜色
+#define ChartColors_markerTextColor Color(0xfff1c442)   // 选中的有小箭头的背景颜色
 
 //实时线颜色等
 #define ChartColors_realTimeBgColor Color(0xff0D1722)
@@ -54,9 +57,10 @@
 #define ChartColors_realTimeTextColor Color(0xffF0B90B) //选中的有小箭头的文字颜色，不对
 
 //实时线
-#define ChartColors_realTimeLineColor Color(0xffF0B90B)     // 时时横虚线的颜色
-#define ChartColors_realTimeLongLineColor Color(0xffF0B90B) // 时时横虚线的颜色
-#define ChartColors_realTimeTextCloor Color(0xffF0B90B)     // 时时价格的颜色
+#define ChartColors_realTimeLineColor Color(0xffF0B90B)               // 时时横虚线的颜色
+#define ChartColors_realTimeLongLineColor Color(0xffF0B90B)           // 时时横虚线的颜色
+#define ChartColors_realTimeTextCloor Color(0xfff1c442)               // 时时价格的颜色
+#define ChartColors_realTimeTextBackgroundFillCloor Color(0xfff7f5ec) // 时时价格背景填充颜色
 
 //表格右边文字颜色
 #define ChartColors_reightTextColor Color(0xff70839E)     // 右边刻度文字颜色

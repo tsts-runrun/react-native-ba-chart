@@ -41,9 +41,9 @@
     CGFloat top = [self getY:curPoint.vol];
     CGContextSetLineWidth(context, self.candleWidth);
     if(curPoint.close > curPoint.open) {
-        CGContextSetStrokeColorWithColor(context, ChartColors_upColor.CGColor);
+        CGContextSetStrokeColorWithColor(context, ChartColors_volumeFillUpColor.CGColor);
     } else {
-        CGContextSetStrokeColorWithColor(context, ChartColors_dnColor.CGColor);
+        CGContextSetStrokeColorWithColor(context, ChartColors_volumeFillDownColor.CGColor);
     }
     CGContextMoveToPoint(context, curX, CGRectGetMaxY(self.chartRect));
     CGContextAddLineToPoint(context, curX, top);
