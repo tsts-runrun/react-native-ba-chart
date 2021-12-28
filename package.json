@@ -1,7 +1,7 @@
 {
   "name": "react-native-ba-chart",
   "title": "React Native Ba Chart ",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React Native Ba Chart",
   "main": "index.js",
   "files": [
@@ -19,6 +19,11 @@
     "type": "git",
     "url": "git+https@github.com:tsts-runrun/react-native-ba-chart.git",
     "baseUrl": "https://github.com/tsts-runrun/react-native-ba-chart"
+  },
+  "author": {
+    "username": "rnbachart-username",
+    "name": "rnbachart-name",
+    "email": "xxx@gmail.com"
   },
   "keywords": [
     "react-native"
